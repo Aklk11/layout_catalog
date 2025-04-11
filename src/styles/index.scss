@@ -226,6 +226,10 @@ body {
     font-weight: 700;
     line-height: 16px;
     text-transform: uppercase;
+    transition:
+      border 0.3s,
+      color 0.3s,
+      background-color 0.3s;
 
     @include margin-inline;
     @include flex-center;
@@ -234,8 +238,7 @@ body {
   &__button:hover {
     border: solid 1px #00acdc;
     border-radius: 5px;
-    color: #00acdc;
-
-    @include bcg-color;
+    color: #34568b;
+    background-color: #fff;
   }
 }
